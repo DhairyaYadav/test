@@ -1,5 +1,0 @@
-{{#user}
-Name: Dhairya Yadav
-Skills: HTML, CSS, JS, Node.js,Mongodb,MySQL,Java(core)
-Email: yadavoctober2002@gmail.com
-{{/user}}
