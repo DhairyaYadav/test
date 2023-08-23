@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Mogra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Mogra&family=Outfit:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* background: #c5bac4; */
+}
+
+body{
+    background-image: url("purpleghdde_1.3.3.jpg");
+    background-size: cover;
+}
+
+#message{
+    margin: auto;
+    color: #c299d0;
+    font-family: 'Lobster', "cursive";
+    font-weight: bolder;
+    width: 75%;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background:url("pinkpurple2.0_2.2.9.jpg");
+    border-radius: 90px;
+    box-shadow: 5px 10px 5px 10px #ba17ae;
+}
+
+.lead{
+    padding: 15px 34px;
+    font-size: larger;
+}
+
+.row{
+    margin: 54px 60px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bolder;
+}
+
+#suggestion{
+    border: 2px solid #b62d85;
+    display: flex;
+    justify-content: center;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    font-size: 1.4em;
+    color: pink;
+    background: purple;
+    opacity: 0.9;
+}
+
+#sugg-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 5px;
+    padding: 40px 5px;
+}
+
+.content{
+    margin: 6px 9px;
+    padding: 5px 6px;
+}
+
+.btn{
+    border:2px solid #b62d85;
+    background-color: #b62d85;
+    padding: 5px 8px;
+    color: rgb(206, 190, 159);
+}
+
+#fact{
+    width: 60%;
+    height: 9em;
+    border: 2px solid  #8725b6;;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 56px;
+    border-bottom-right-radius: 56px;
+    background: #b82c83;
+    color: #c299d0;
+    
+}
+
+#factHeading{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+#factcontent{
+    display: flex;
+    justify-content: center;
+    margin: 30px 15px;
+}
+
+#copyright{
+    margin: auto;
+    font-size: large;
+    color: #c299d0;
+}
+
+.list-inline{
+    display: flex;
+    flex-direction:row ;
+    padding: 10px 15px;
+    list-style: none;
+}
+
+.list-inline-item{
+    padding: 10px 15px;
+    margin-right: 15px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #ba17ae;
+    border: 2px solid #b82c83;
+    border-radius: 40px;
+}
